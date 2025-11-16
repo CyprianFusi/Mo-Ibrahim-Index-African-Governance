@@ -3,7 +3,8 @@
 
   # Ibrahim Index of African Governance (IIAG) - Comprehensive Analysis
 
-  _By **BINATI AInalytics**_
+   _By **BINATI AInalytics**_
+</div>
 
 
 ## 🎯 Project Overview
@@ -11,7 +12,6 @@
 This project provides a comprehensive analysis of governance trends across 54 African countries from 2014 to 2023, using data from the **Mo Ibrahim Foundation's Ibrahim Index of African Governance (IIAG)**.
 
 The analysis includes:
-
 - ✅ **10 high-resolution static visualizations** (300 DPI, publication-ready)
 - ✅ **8 interactive web-based charts** (HTML/Plotly)
 - ✅ **Professional dashboard** for stakeholder presentations
@@ -170,26 +170,22 @@ Small island states (Seychelles, Mauritius, Cabo Verde) consistently outperform 
 
 ### 2. **Reform Momentum**
 Countries can improve significantly:
-
 - **Gambia:** +7.2 (democratic transition)
 - **Somalia:** +6.8 (post-conflict recovery)
 - **Angola:** +5.8 (economic reforms)
 
 ### 3. **Democratic Backsliding**
 Some previous strong performers declining:
-
 - **Tunisia:** -4.7 (post-revolution challenges)
 - **Mauritius:** -4.0 (economic pressures)
 - **Botswana:** -3.6 (institutional erosion)
 
 ### 4. **Regional Disparities**
 15-point gap between regions:
-
 - **Southern Africa** leads (54.6)
 - **Central Africa** struggles (39.7)
 
 ### 5. **Category Insights**
-
 - **Human Development** scores highest (51.6 avg)
 - **Security & Rule of Law** shows most variation (SD: 13.9)
 - Strong correlations suggest integrated reform needed
