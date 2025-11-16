@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ibrahim Index of African Governance - Interactive Dashboard</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 2rem;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .header p {
+            color: #7f8c8d;
+            font-size: 1.1rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(650px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .chart-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .chart-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0,0,0,0.15);
+        }
+
+        .chart-card h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 0.5rem;
+        }
+
+        .chart-card iframe {
+            width: 100%;
+            border: none;
+            border-radius: 8px;
+        }
+
+        .full-width {
+            grid-column: 1 / -1;
+        }
+
+        .insights {
+            background: white;
+            border-radius: 12px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+        }
+
+        .insights h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            border-bottom: 3px solid #764ba2;
+            padding-bottom: 0.5rem;
+        }
+
+        .insights ul {
+            list-style-position: inside;
+            padding-left: 1rem;
+        }
+
+        .insights li {
+            margin: 0.8rem 0;
+            color: #555;
+        }
+
+        .stat-highlight {
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        footer {
+            background: rgba(255, 255, 255, 0.95);
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 768px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Ibrahim Index of African Governance</h1>
+        <p>Interactive Dashboard - Comprehensive Analysis of Governance Across Africa (2014-2023)</p>
+    </div>
+
+    <div class="container">
+        <div class="insights">
+            <h2>Key Insights & Executive Summary</h2>
+            <ul>
+                <li><span class="stat-highlight">Top Performer:</span> Seychelles leads with a score of 75.3, followed by Mauritius (72.8) and Cabo Verde (69.6)</li>
+                <li><span class="stat-highlight">Continental Average:</span> The mean governance score across Africa is 49.3, with significant regional variation (SD: 12.3)</li>
+                <li><span class="stat-highlight">Best Improvers:</span> Seychelles (+10.0), Gambia (+7.2), and Somalia (+6.8) showed remarkable improvements from 2014-2023</li>
+                <li><span class="stat-highlight">Regional Leaders:</span> Southern Africa (54.6) and North Africa (53.7) lead regional performance</li>
+                <li><span class="stat-highlight">Category Performance:</span> Human Development (51.6) scores highest on average, while Security & Rule of Law shows most variation</li>
+                <li><span class="stat-highlight">Challenges:</span> Central Africa faces the most governance challenges with an average score of 39.7</li>
+                <li><span class="stat-highlight">Trends:</span> Overall continental governance has remained relatively stable, with localized improvements and declines</li>
+            </ul>
+        </div>
+
+        <div class="dashboard-grid">
+            <div class="chart-card full-width">
+                <h2>1. Africa Governance Map - Geographic Overview</h2>
+                <iframe src="interactive_map.html" height="750"></iframe>
+            </div>
+
+            <div class="chart-card">
+                <h2>2. Top Performers - Temporal Trends</h2>
+                <iframe src="interactive_timeseries.html" height="650"></iframe>
+            </div>
+
+            <div class="chart-card">
+                <h2>3. Top 15 Countries Rankings</h2>
+                <iframe src="interactive_bar_top15.html" height="650"></iframe>
+            </div>
+
+            <div class="chart-card full-width">
+                <h2>4. Category Performance - Top 5 Countries</h2>
+                <iframe src="interactive_radar.html" height="850"></iframe>
+            </div>
+
+            <div class="chart-card full-width">
+                <h2>5. Category Heatmap - Top 20 Countries</h2>
+                <iframe src="interactive_heatmap.html" height="750"></iframe>
+            </div>
+
+            <div class="chart-card full-width">
+                <h2>6. Category Correlation Analysis</h2>
+                <iframe src="interactive_scatter.html" height="850"></iframe>
+            </div>
+
+            <div class="chart-card">
+                <h2>7. Regional Comparison</h2>
+                <iframe src="interactive_regional.html" height="650"></iframe>
+            </div>
+
+            <div class="chart-card">
+                <h2>8. Regional Score Distribution</h2>
+                <iframe src="interactive_boxplot.html" height="650"></iframe>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Data Source: Mo Ibrahim Foundation - Ibrahim Index of African Governance (IIAG) 2024</p>
+        <p>Dashboard created for data analysis and stakeholder presentation</p>
+    </footer>
+</body>
+</html>
