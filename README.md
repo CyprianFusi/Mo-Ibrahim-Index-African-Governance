@@ -9,6 +9,9 @@
 ## Demo 
 See interactive [dashboard](https://htmlpreview.github.io/?https://github.com/CyprianFusi/Mo-Ibrahim-Index-African-Governance/blob/main/dashboard/index.html)
 
+![GOV Demo](assets/ui_1.png)
+![GOV Demo](assets/ui_2.png)
+
 ## 🎯 Project Overview
 
 This project provides a comprehensive analysis of governance trends across 54 African countries from 2014 to 2023, using data from the **Mo Ibrahim Foundation's Ibrahim Index of African Governance (IIAG)**.
@@ -424,3 +427,4 @@ This comprehensive analysis package provides everything needed to understand, pr
 Cyprian Fusi
 
 https://binati-ai.com 
+
