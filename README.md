@@ -6,8 +6,8 @@
    _By **BINATI AInalytics**_
 </div>
 
-# Demo 
-See [dashboard](https://htmlpreview.github.io/?https://github.com/CyprianFusi/Mo-Ibrahim-Index-African-Governance/blob/main/dashboard/index.html)
+## Demo 
+See interactive [dashboard](https://htmlpreview.github.io/?https://github.com/CyprianFusi/Mo-Ibrahim-Index-African-Governance/blob/main/dashboard/index.html)
 
 ## 🎯 Project Overview
 
