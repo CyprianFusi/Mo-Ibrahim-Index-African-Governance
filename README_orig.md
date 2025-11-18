@@ -4,7 +4,7 @@
   # Ibrahim Index of African Governance (IIAG) - Comprehensive Analysis
 
   _By **BINATI AInalytics**_
-
+</div>
 
 ## 🎯 Project Overview
 
@@ -422,3 +422,4 @@ This comprehensive analysis package provides everything needed to understand, pr
 Cyprian Fusi
 
 https://binati-ai.com 
+
