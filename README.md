@@ -7,7 +7,8 @@
 </div>
 
 ## Some Charts 
-See interactive [dashboard](https://rawcdn.githack.com/CyprianFusi/Mo-Ibrahim-Index-African-Governance/0d90fa6f0bf311ede6a7f3ea2cefd933944f47af/dashboard/index.html)
+**See interactive**: [dashboard](https://rawcdn.githack.com/CyprianFusi/Mo-Ibrahim-Index-African-Governance/0d90fa6f0bf311ede6a7f3ea2cefd933944f47af/dashboard/index.html)
+
 
 ![GOV Demo](assets/ui_1.png)
 ![GOV Demo](assets/ui_2.png)
@@ -428,6 +429,7 @@ This comprehensive analysis package provides everything needed to understand, pr
 Cyprian Fusi
 
 https://binati-ai.com 
+
 
 
 
